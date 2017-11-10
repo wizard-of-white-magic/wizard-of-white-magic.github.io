@@ -5,7 +5,7 @@
 ### Analogy: *(Spoiler Alert)*
 > But for now, think of Linked List as Jaime Lannister (Any `GOT` fans reading this blog... ? No, Linked List has no sisters....)
 > FYI, Jaime Lannister is a one handed knight in one of the TV series. If you dont know, dont worry, nothing related to Linked Lists.
-
+>
 >To actually understand linked list better or to appreciate linked lists better, we have to look at how Arrays were causing a problem in the first place.
 
 ### What are Arrays?
@@ -18,11 +18,12 @@ Arrays are kind of data structure that can store a `fixed-size`,  `sequential` c
 So, what does it mean when we tell Arrays are `fixed size`? If you have hands on experience with programming, you would already know that you will have to declare the size of an array while initializing it before hand, meaning you would have to somehow through `black magic` (magic need not be black all the time, but just taking it up like that) know that the application your building would exactly use `n` (n being the size of the array) amount of space and you would declare an array of size `n` and give it to the application. But there is a catch here isn't it? The catch is, all of us are not talented enough to perform `black magic` :( or are we? Well `Linked Lists` is a work around to solve this, so consider implementing a linked list itself as `black magic` :D 
 
 
-<!--
+
 **Sequential** - Arrays store the data in contiguos memory locations. Well in the text books and many websites you would see the below diagram.
 
 ![](/wizard-of-white-magic.github.io/img/array_c.jpg)
 
+<!--
 what are these locations exactly? What does `contiguos/sequential` mean? It means, that the `compiler` would in advance request for the `n` amount of space in `main memory` (RAM - Random Access Memory) `FYI RAM is the place, where all the programs at runtime runs or are executed` and the Operating System, in-turn being the `resource manager` allocate the requested `n` amount of space in the `main memory` here, the operating system makes sure that the space it is allocating for the program is all continous, next to each other, the boxes in the above diagram represent continous/contiguos blocks/chunks of memory in `RAM` hope this rings some bells, but what would Operating System do, if `n` amount of space we requested for is not availabe in the `main memory`? Operating System would just throw an `Insufficient Memory Exception` Exceptions are nothing but errors, but there are many differences to exceptions as compared to errors, but that is for another post, for now think of it as, the operating system would just throw an error at us. Even though the required `n` amount of space is present in RAM, but all spread out across the RAM and not continous, still we would not be able to utilize the space as it is not present continously. Now, isn't this in efficient usage of Main Memory??
 
 
