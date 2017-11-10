@@ -33,8 +33,6 @@ Well enough of digging `Array's Grave`, Arrays' have some advantages too,
 ###Advantages of Arrays
 **Fast** - Arrays' are fast... Now, that's what I'm talking about! Speeeeeed!
 
-![]({{"wizard-of-white-magic.github.io/img/flash.jpg") 
-
 Think of it, since the compiler already knows the type of data you would be storing in an array and how much data (`n`) you'd be storing, it need not worry about finding the *type* of the value or the the *location* at which you'll have to store this data at run time. All it cares about is, whether the value your trying to store is the *same type* as of the array or not and whether or not there is still *allocated* space left next to it or not. That is it. Other than this, it does not give a damn! It just blindly throws an exception if you try to insert data of different *type* or try to insert *data* when there is no space left.
 
 **Random Acess** - Arrays provide `Random Access`, since arrays store the data in contiguous memory locations, each `unit` of data it stores, it backs it up with an index, like in the above shown array diagram. 0....4 are indices of that array. (psss... Don't see flash, he's not an array, above him please...) Now, what exactly I mean by random access? If I have to access the `3rd` element of an array, I need not go to the `1st` element and then `2nd` element and then to `3rd` element, this would become sequential access, if the array variable is `arr` I could directly access `arr's` `3rd` value as `arr[3]` and ola! I would get it.  
