@@ -21,7 +21,7 @@ So, what does it mean when we tell Arrays are `fixed size`? If you have hands on
 <!--![Array](http://wizard-of-white-magic.github.io/img/array.png)
 -->
 
-<img src="http://wizard-of-white-magic.github.io/img/array.png" width="500">
+<img src="http://wizard-of-white-magic.github.io/img/array.png" width="350">
 
 
 <!--
