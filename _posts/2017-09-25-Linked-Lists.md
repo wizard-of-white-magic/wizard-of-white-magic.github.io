@@ -18,7 +18,7 @@ So, what does it mean when we tell Arrays are `fixed size`? If you have hands on
 
 **Sequential** - Arrays store the data in contiguos memory locations. Well in the text books and many websites you would see the below diagram.
 
-![Array][http://wizard-of-white-magic.github.io/img/array_c.jpg]
+![Array](http://wizard-of-white-magic.github.io/img/array_c.jpg)
 
 <!--
 what are these locations exactly? What does `contiguos/sequential` mean? It means, that the `compiler` would in advance request for the `n` amount of space in `main memory` (RAM - Random Access Memory) `FYI RAM is the place, where all the programs at runtime runs or are executed` and the Operating System, in-turn being the `resource manager` allocate the requested `n` amount of space in the `main memory` here, the operating system makes sure that the space it is allocating for the program is all continous, next to each other, the boxes in the above diagram represent continous/contiguos blocks/chunks of memory in `RAM` hope this rings some bells, but what would Operating System do, if `n` amount of space we requested for is not availabe in the `main memory`? Operating System would just throw an `Insufficient Memory Exception` Exceptions are nothing but errors, but there are many differences to exceptions as compared to errors, but that is for another post, for now think of it as, the operating system would just throw an error at us. Even though the required `n` amount of space is present in RAM, but all spread out across the RAM and not continous, still we would not be able to utilize the space as it is not present continously. Now, isn't this in efficient usage of Main Memory??
